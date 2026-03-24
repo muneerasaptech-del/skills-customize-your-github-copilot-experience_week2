@@ -1,19 +1,48 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build the classic word-guessing game using Python strings, loops, and user input. You will practice string manipulation, conditionals, loops, and random selection.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Game Setup and Word Selection
 
-## ✅ Must Have's
+#### Description
+Create the foundation of the Hangman game by setting up a word list and selecting a random word for the player to guess.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Define a list of words to choose from
+- Randomly select a word from the list
+- Initialize variables to track guesses and attempts remaining
+- Display the hidden word in underscore format (e.g., `_ _ _`)
+
+### 🛠️ Letter Guessing and Game Logic
+
+#### Description
+Implement the core game logic that handles player input, updates the word display, and tracks incorrect guesses.
+
+#### Requirements
+Completed program should:
+
+- Accept letter guesses from the player using `input()`
+- Check if the guessed letter is in the word
+- Update the display to reveal correctly guessed letters
+- Track and display remaining attempts
+- Handle duplicate guesses gracefully
+
+### 🛠️ Win/Lose Conditions and Game Flow
+
+#### Description
+Complete the game by implementing win/lose conditions and the overall game loop.
+
+#### Requirements
+Completed program should:
+
+- End the game when the word is fully guessed (win condition)
+- End the game when attempts are exhausted (lose condition)
+- Display appropriate win or lose messages
+- Optionally allow the player to play again
